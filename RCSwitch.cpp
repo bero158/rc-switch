@@ -91,6 +91,8 @@ static const RCSwitch::Protocol PROGMEM proto[] = {
   { 365, { 18,  1 }, {  3,  1 }, {  1,  3 }, true },     // protocol 10 (1ByOne Doorbell)
   { 270, { 36,  1 }, {  1,  2 }, {  2,  1 }, true },     // protocol 11 (HT12E)
   { 320, { 36,  1 }, {  1,  2 }, {  2,  1 }, true }      // protocol 12 (SM5212)
+  { 370, {  1,  6 }, {  1,  3 }, {  3,  1 }, false },    // protocol 13 Lidl SilverCrest 24bit
+  { 500, {  1,  15 }, {  1,  3 }, {  3,  1 }, false }    // protocol 13 Lidl SilverCrest 32bit
 };
 
 enum {
